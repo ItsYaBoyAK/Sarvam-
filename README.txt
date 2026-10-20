@@ -31,38 +31,6 @@ An AI-powered grievance drafting assistant that helps citizens convert spoken or
     ├── .gitignore
     └── README.md
 
-## Requirements
-
-- Python 3.10 or a compatible version supported by the installed dependencies
-- A Sarvam AI API key
-- Internet connection for API requests
-
-## Installation and Setup
-
-1. Clone the repository:
-
-   git clone https://github.com/YOUR_USERNAME/grievance-drafter.git
-
-2. Navigate to the project directory:
-
-   cd grievance-drafter
-
-3. Install the dependencies:
-
-   python -m pip install -r requirements.txt
-
-4. Create a file named .env in the project directory.
-
-5. Add your Sarvam AI API key:
-
-   SARVAM_API_KEY=your_actual_api_key
-
-6. Start the application:
-
-   python app.py
-
-7. Open the local Gradio URL displayed in your terminal.
-
 ## How to Use
 
 1. Open the Grievance Drafter web interface.
@@ -100,14 +68,6 @@ https://docs.sarvam.ai/api/api-guides-tutorials/chat-completion/overview
 - Official reference links do not independently verify a citizen's allegations.
 - The application should not be treated as legal advice.
 
-## Security and Privacy
-
-- Never commit your real API key or .env file to GitHub.
-- Keep .env and grievances.json excluded using .gitignore.
-- Do not enter unnecessary sensitive personal information.
-- Local records may contain private complaint details; protect access to them.
-- Before public deployment, implement appropriate authentication, access controls, and secure storage.
-
 ## Future Improvements
 
 - Support for additional Indian languages.
@@ -117,10 +77,6 @@ https://docs.sarvam.ai/api/api-guides-tutorials/chat-completion/overview
 - Database-backed storage and improved privacy controls.
 - Automated tests and improved error handling.
 - Official status integration if an authorized API becomes available.
-
-## License
-
-Choose and add an appropriate open-source license before distributing this project.
 
 ## Disclaimer
 
